@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding:0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: pink;
+        }
+        .container{
+         width: 100%;
+         max-width: 500px;   
+         background-color:  rgb(247, 143, 160);
+         
+        }
+        div{
+            margin-bottom:15px;
+        }
+        div .form-group{
+            display: flex;
+            margin: 10px;
+            
+        }
+        label{
+            width:100px;
+            
+        }
+        input{
+            width:350px;
+            padding: 10px;
+        }
+        .form-header{
+            text-align: center;
+        }
+        button{
+            margin-left:20px;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(232, 25, 125);
+            color: white;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <form action="">
+            <div class="form-header">
+                <h2>FORM REGISTER</h2>
+            </div>    
+            <div class="form-group">
+                <label for="">Username</label>
+                <input type="text" required>
+            </div>
+            <div class="form-group">
+                <label for="">Email</label>
+                <input type="email" required>
+            </div>
+            <div class="form-group">
+                <label for="">password</label>
+                <input type="password" required>
+
+            </div>
+            <div class="form-group">
+                <label for="">repassword</label>
+                <input type="password" required>
+            </div>
+            <button type="submit">Register</button>
+            <div class="form-footer">
+                
+            </div>
+
+
+        </form>
+
+    </div>
+</body>
+</html>
